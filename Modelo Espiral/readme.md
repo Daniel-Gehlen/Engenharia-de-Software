@@ -7,6 +7,9 @@ O **Modelo Espiral** é um modelo de processo de software que combina elementos 
 - **Abordagem Iterativa:** O processo é dividido em várias iterações, cada uma envolvendo atividades como análise de requisitos, projeto, implementação e testes. Cada iteração resulta em um incremento no software.
 
 - **Fases do Ciclo Espiral:** O Modelo Espiral é dividido em quatro fases principais, executadas em cada iteração:
+
+![Fases do Modelo Espiral](Screenshot%20espiral.png)
+
   - **Planejamento:** Define objetivos, identifica riscos e estabelece planos para a próxima iteração.
   - **Análise de Riscos:** Avalia riscos técnicos e de negócios, priorizando-os e determinando como mitigá-los.
   - **Engenharia:** Realiza atividades de desenvolvimento, como projeto, codificação e testes.
