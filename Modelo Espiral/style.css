@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+svg {
+    width: 400px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+circle {
+    fill: #0074D9;
+}
+
+text {
+    fill: #000;
+    font-size: 12px;
+    text-anchor: middle;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+}
