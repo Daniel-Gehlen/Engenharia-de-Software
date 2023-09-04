@@ -1,0 +1,23 @@
+/* Estilos para as barras de progresso verticais */
+.progress {
+    width: 20px;
+    background-color: #3498db;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+/* Estilos adicionais para a seção do Modelo Cascata */
+.step {
+    margin-bottom: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+/* Estilos para o título das etapas */
+.step-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
