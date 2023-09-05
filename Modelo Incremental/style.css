@@ -1,0 +1,32 @@
+/* Estilos para os blocos do fluxograma */
+.container {
+    width: 600px;
+    margin: 20px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #000;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+.bloco {
+    height: 80px;
+    position: relative;
+    width: 150px;
+}
+.bloco-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Estilos para as setas */
+.seta {
+    font-size: 24px;
+    text-align: center;
+}
