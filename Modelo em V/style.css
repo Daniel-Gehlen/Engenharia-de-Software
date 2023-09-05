@@ -1,0 +1,59 @@
+/* Estilos CSS para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.triangle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent; /* Triplicando o tamanho do triângulo */
+    border-right: 150px solid transparent; /* Triplicando o tamanho do triângulo */
+    border-bottom: 300px solid #007bff; /* Triplicando o tamanho do triângulo */
+    transform: scaleY(-1);
+    position: absolute;
+}
+.text {
+    position: absolute;
+    color: black; /* Cor do texto em preto */
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-align: center;
+    transform: translateY(-50%);
+}
+/* Etapas de Desenvolvimento */
+.dev-start {
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dev-design {
+    top: 250px;
+    left: 500px;
+}
+.dev-implementation {
+    top: 250px;
+    right: 450px;
+}
+/* Etapas de Teste */
+.test-unit {
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.test-integration {
+    bottom: 250px;
+    left: 490px;
+}
+.test-system {
+    bottom: 250px;
+    right: 510px;
+}
