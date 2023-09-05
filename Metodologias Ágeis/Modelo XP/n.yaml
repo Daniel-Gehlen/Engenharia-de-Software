@@ -1,0 +1,46 @@
+Início
+  |
+  V
+Definir Requisitos
+  |
+  V
+Priorizar Requisitos
+  |
+  V
+Dividir em Iterações
+  |
+  V
+Desenvolver Funcionalidades
+  |
+  V
+Testar Funcionalidades
+  |
+  V
+Integrar e Testar Continuamente
+  |
+  V
+Refatorar
+  |
+  V
+Coletar Feedback do Cliente
+  |
+  V
+Cliente Satisfeito?
+  |   |
+  |   V
+  |   Sim
+  |    |
+  |    V
+  |  Encerrar o Projeto
+  |    |
+  |    V
+  |  Fim
+  |
+  V
+Não
+  |
+  V
+Ajustar Prioridades e Requisitos
+  |
+  V
+Reiniciar Iteração

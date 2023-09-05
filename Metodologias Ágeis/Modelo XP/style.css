@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#step-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#step-text {
+    font-size: 24px;
+    margin: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#choice-buttons {
+    display: none;
+    justify-content: center;
+}
+
+#choice-yes,
+#choice-no {
+    margin: 10px;
+}
+
+#step-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.step-square {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.completed {
+    background-color: green;
+}
