@@ -1,0 +1,44 @@
+/* Estilos para os blocos do fluxograma */
+.container {
+    width: 1000px; /* Aumentei a largura para acomodar boxes maiores */
+    margin: 20px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #000;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+.bloco {
+    height: 100px; /* Aumentei a altura das boxes */
+    position: relative;
+    width: 200px; /* Aumentei a largura das boxes */
+    background-color: #f0f0f0; /* Cor de fundo padrão */
+}
+.bloco-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+/* Estilos para as setas */
+.seta {
+    font-size: 24px;
+    text-align: center;
+}
+/* Estilos para os botões */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
