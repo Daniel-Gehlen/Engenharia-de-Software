@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Qualidade de Software</title>
+</head>
+<body>
+    <div class="step-container">
+        <!-- Etapas 1-6 na parte superior -->
+        <div class="step current-step" id="qualidadeDoProduto">
+            <h2>Qualidade do Produto</h2>
+            <button class="details-button" onclick="toggleDetails('qualidadeDoProduto')">Saiba Mais</button>
+            <div class="details">
+                <p>Refere-se à qualidade intrínseca do software, ou seja, quão bem o software atende aos requisitos e expectativas dos usuários.</p>
+            </div>
+            <button onclick="nextStep('cmmi', this)">Próxima Etapa</button>
+        </div>
+
+        <!-- Etapas 2-6 com botões "Saiba Mais" e detalhes -->
+        <div class="step" id="cmmi">
+            <h2>CMMI (Capability Maturity Model Integration)</h2>
+            <button class="details-button" onclick="toggleDetails('cmmi')">Saiba Mais</button>
+            <div class="details">
+                <p>O CMMI é um modelo de melhoria de processos que ajuda as organizações a melhorar seus processos de desenvolvimento e manutenção de software. Ele possui cinco níveis de maturidade, indo de inicial (nível 1) a otimizado (nível 5).</p>
+            </div>
+            <button onclick="nextStep('npsbr', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="npsbr">
+            <h2>NPS.BR (Norma de Processos em Software Brasileira)</h2>
+            <button class="details-button" onclick="toggleDetails('npsbr')">Saiba Mais</button>
+            <div class="details">
+                <p>É uma norma brasileira que estabelece requisitos para a melhoria de processos em software. Ela tem como objetivo aumentar a qualidade dos produtos e serviços de software no Brasil.</p>
+            </div>
+            <button onclick="nextStep('medicao', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="medicao">
+            <h2>Medição</h2>
+            <button class="details-button" onclick="toggleDetails('medicao')">Saiba Mais</button>
+            <div class="details">
+                <p>A medição envolve a coleta e análise de dados para avaliar a qualidade do software, o desempenho do processo e outros aspectos relevantes do desenvolvimento de software.</p>
+            </div>
+            <button onclick="nextStep('custoDaQualidade', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="custoDaQualidade">
+            <h2>Custo da Qualidade</h2>
+            <button class="details-button" onclick="toggleDetails('custoDaQualidade')">Saiba Mais</button>
+            <div class="details">
+                <p>É uma abordagem que visa medir os custos associados à qualidade do software, incluindo custos de prevenção, avaliação e falhas.</p>
+            </div>
+            <button onclick="nextStep('documentacao', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="documentacao">
+            <h2>Documentação</h2>
+            <button class="details-button" onclick="toggleDetails('documentacao')">Saiba Mais</button>
+            <div class="details">
+                <p>A documentação é essencial para o desenvolvimento de software de alta qualidade. Isso inclui documentos de requisitos, design, código, testes e manuais do usuário.</p>
+            </div>
+            <button onclick="nextStep('tiposDeRequisitos', this)">Próxima Etapa</button>
+        </div>
+    </div>
+
+    <div class="step-container">
+        <!-- Etapas 7-11 na parte inferior -->
+        <div class="step" id="tiposDeRequisitos">
+            <h2>Tipos de Requisitos</h2>
+            <button class="details-button" onclick="toggleDetails('tiposDeRequisitos')">Saiba Mais</button>
+            <div class="details">
+                <p>Funcionais: Descrevem as funcionalidades específicas que o software deve oferecer. Exemplo: "O sistema deve permitir que os usuários façam login."<br>
+                Não-funcionais: Descrevem características não diretamente relacionadas a funcionalidades específicas, como desempenho, segurança e usabilidade. Exemplo: "O sistema deve responder a todas as solicitações de login em menos de 2 segundos."</p>
+            </div>
+            <button onclick="nextStep('cicloDeDesenvolvimento', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="cicloDeDesenvolvimento">
+            <h2>Ciclo de Desenvolvimento</h2>
+            <button class="details-button" onclick="toggleDetails('cicloDeDesenvolvimento')">Saiba Mais</button>
+            <div class="details">
+                <p>O ciclo de desenvolvimento de software baseado na SQA envolve a definição de processos e padrões de qualidade que devem ser seguidos durante o ciclo de desenvolvimento de software. Isso inclui planejamento, execução de testes, revisões de código e melhoria contínua.</p>
+            </div>
+            <button onclick="nextStep('portabilidade', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="portabilidade">
+            <h2>Portabilidade</h2>
+            <button class="details-button" onclick="toggleDetails('portabilidade')">Saiba Mais</button>
+            <div class="details">
+                <p>A portabilidade refere-se à capacidade do software de ser executado em diferentes ambientes, sistemas operacionais e plataformas sem a necessidade de muitas modificações.</p>
+            </div>
+            <button onclick="nextStep('usabilidade', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="usabilidade">
+            <h2>Usabilidade</h2>
+            <button class="details-button" onclick="toggleDetails('usabilidade')">Saiba Mais</button>
+            <div class="details">
+                <p>A usabilidade envolve a facilidade de uso do software. Isso inclui a confiabilidade (quão confiável é o software), eficiência (quão rápido e eficaz é o software) e engenharia humana (consideração da experiência do usuário, design de interface, etc.).</p>
+            </div>
+            <button onclick="nextStep('manutenibilidade', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="manutenibilidade">
+            <h2>Manutenibilidade</h2>
+            <button class="details-button" onclick="toggleDetails('manutenibilidade')">Saiba Mais</button>
+            <div class="details">
+                <p>A manutenibilidade refere-se à facilidade de manter e modificar o software. Isso inclui facilidade de teste, facilidade de entendimento do código-fonte e facilidade de fazer alterações sem introduzir erros.</p>
+            </div>
+            <button onclick="reset()">Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
