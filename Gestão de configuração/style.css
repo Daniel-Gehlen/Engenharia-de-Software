@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.step {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.active {
+    background-color: #ffff00; /* Amarelo para a etapa atual */
+}
+
+.completed {
+    background-color: #4caf50; /* Verde para etapas concluídas */
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+}
