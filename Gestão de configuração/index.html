@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gestão de Configuração</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="step active" id="step1">
+            <h2>1. Planejamento de Gerenciamento de Configuração</h2>
+            <p>Defina políticas e procedimentos para o gerenciamento de configuração.</p>
+            <div class="button-container">
+                <button onclick="nextStep(1)">Próxima Etapa</button>
+            </div>
+        </div>
+
+        <div class="step" id="step2">
+            <h2>2. Gerenciamento de Configuração</h2>
+            <p>Implemente políticas e procedimentos definidos no planejamento.</p>
+            <div class="button-container">
+                <button onclick="nextStep(2)">Próxima Etapa</button>
+            </div>
+        </div>
+
+        <div class="step" id="step3">
+            <h2>3. Identificação de Itens de Configuração</h2>
+            <p>Identifique e nomeie os itens de configuração de forma única.</p>
+            <div class="button-container">
+                <button onclick="nextStep(3)">Próxima Etapa</button>
+            </div>
+        </div>
+
+        <div class="step" id="step4">
+            <h2>4. Banco de Dados de Configuração</h2>
+            <p>Armazene informações sobre os itens de configuração, suas versões e relacionamentos.</p>
+            <div class="button-container">
+                <button onclick="nextStep(4)">Próxima Etapa</button>
+            </div>
+        </div>
+
+        <div class="step" id="step5">
+            <h2>5. Gerenciamento de Versões e Releases</h2>
+            <p>Controle as diferentes versões do software e crie releases estáveis.</p>
+            <div class="button-container">
+                <button onclick="nextStep(5)">Próxima Etapa</button>
+            </div>
+        </div>
+
+        <div class="step" id="step6">
+            <h2>6. Identificação de Versões</h2>
+            <p>Identifique cada versão de forma única para rastreabilidade.</p>
+            <div class="button-container">
+                <button onclick="resetSteps()">Reiniciar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
