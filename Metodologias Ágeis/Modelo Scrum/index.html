@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Scrum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scrum-container">
+        <div class="scrum-box" id="step1">
+            <h3>Passo 1: Planejamento</h3>
+            <p>Nesta etapa, a equipe define os objetivos do projeto e cria o Product Backlog.</p>
+            <div class="button-container">
+                <button onclick="prevStep()">Anterior</button>
+                <button onclick="nextStep()">Próximo</button>
+            </div>
+        </div>
+
+        <div class="scrum-box" id="step2">
+            <h3>Passo 2: Sprint</h3>
+            <p>A equipe seleciona itens do Product Backlog para a Sprint e cria um Sprint Backlog.</p>
+            <div class="button-container">
+                <button onclick="prevStep()">Anterior</button>
+                <button onclick="nextStep()">Próximo</button>
+            </div>
+        </div>
+
+        <div class="scrum-box" id="step3">
+            <h3>Passo 3: Desenvolvimento</h3>
+            <p>A equipe trabalha no desenvolvimento dos itens do Sprint Backlog.</p>
+            <div class="button-container">
+                <button onclick="prevStep()">Anterior</button>
+                <button onclick="nextStep()">Próximo</button>
+            </div>
+        </div>
+
+        <div class="scrum-box" id="step4">
+            <h3>Passo 4: Revisão</h3>
+            <p>A equipe revisa o trabalho concluído durante a Sprint e realiza uma demonstração para os stakeholders.</p>
+            <div class="button-container">
+                <button onclick="prevStep()">Anterior</button>
+                <button onclick="nextStep()">Próximo</button>
+            </div>
+        </div>
+
+        <div class="scrum-box" id="step5">
+            <h3>Passo 5: Retrospectiva</h3>
+            <p>A equipe realiza uma retrospectiva para melhorar seus processos.</p>
+            <div class="button-container">
+                <button onclick="prevStep()">Anterior</button>
+                <button onclick="nextStep()">Reiniciar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
