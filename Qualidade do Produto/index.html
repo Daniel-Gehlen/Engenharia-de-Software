@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualidade de Produto em Engenharia de Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="step-container">
+        <!-- Etapas -->
+        <div class="step current-step" id="corretude">
+            <h2>Corretude</h2>
+            <button class="details-button" onclick="toggleDetails('corretude')">Saiba Mais</button>
+            <div class="details">
+                <p>A corretude se refere à capacidade do software de realizar suas funções de acordo com as especificações e requisitos sem erros ou falhas.</p>
+                <p>Envolve a precisão dos cálculos, a execução adequada das funcionalidades e a consistência dos resultados.</p>
+                <p>Garante que o software forneça saídas corretas e confiáveis em todas as situações.</p>
+            </div>
+            <button onclick="nextStep('eficiencia', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="eficiencia">
+            <h2>Eficiência</h2>
+            <button class="details-button" onclick="toggleDetails('eficiencia')">Saiba Mais</button>
+            <div class="details">
+                <p>A eficiência diz respeito à capacidade do software de executar suas tarefas de forma rápida e com uso eficiente dos recursos, como CPU, memória e armazenamento.</p>
+                <p>Um software eficiente consome menos recursos e responde mais rapidamente às solicitações do usuário.</p>
+                <p>A eficiência é crucial para garantir uma boa experiência do usuário e reduzir custos operacionais.</p>
+            </div>
+            <button onclick="nextStep('usabilidade', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="usabilidade">
+            <h2>Usabilidade (IHC, UX)</h2>
+            <button class="details-button" onclick="toggleDetails('usabilidade')">Saiba Mais</button>
+            <div class="details">
+                <p>A usabilidade, também conhecida como Interação Humano-Computador (IHC) e Experiência do Usuário (UX), refere-se à facilidade com que os usuários podem interagir e usar o software de forma eficaz.</p>
+                <p>Envolve elementos como a interface do usuário, a navegabilidade, a clareza das instruções e a capacidade do software de atender às necessidades e expectativas dos usuários.</p>
+                <p>Uma boa usabilidade aumenta a satisfação do usuário e reduz a curva de aprendizado.</p>
+            </div>
+            <button onclick="nextStep('portabilidade', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="portabilidade">
+            <h2>Portabilidade</h2>
+            <button class="details-button" onclick="toggleDetails('portabilidade')">Saiba Mais</button>
+            <div class="details">
+                <p>A portabilidade se relaciona com a capacidade do software de ser executado em diferentes ambientes e plataformas sem a necessidade de grandes modificações.</p>
+                <p>Isso inclui a capacidade de migrar o software de um sistema operacional para outro, de um dispositivo para outro ou de uma arquitetura para outra.</p>
+                <p>A portabilidade é importante para atender a uma variedade de clientes e dispositivos.</p>
+            </div>
+            <button onclick="nextStep('interoperabilidade', this)">Próxima Etapa</button>
+        </div>
+
+        <div class="step" id="interoperabilidade">
+            <h2>Interoperabilidade</h2>
+            <button class="details-button" onclick="toggleDetails('interoperabilidade')">Saiba Mais</button>
+            <div class="details">
+                <p>A interoperabilidade refere-se à capacidade do software de se comunicar e funcionar de forma eficaz com outros sistemas, aplicativos ou componentes, muitas vezes em diferentes plataformas.</p>
+                <p>É crucial em cenários onde vários sistemas precisam trocar dados e informações de forma transparente e sem problemas.</p>
+                <p>A interoperabilidade é fundamental para a integração de sistemas em empresas e ambientes tecnológicos complexos.</p>
+            </div>
+            <button onclick="reset()">Reiniciar</button>
+        </div>
+    </div>
+    <div class="step-container">
+        <!-- Etapas 12 e 13 - Normas ISO -->
+        <div class="step" id="iso9126">
+            <h2>Norma ISO 9126</h2>
+            <button class="details-button" onclick="toggleDetails('iso9126')">Saiba Mais</button>
+            <div class="details">
+                <p>A ISO 9126 é uma norma internacional que fornece diretrizes para avaliar a qualidade do software em termos de suas características e subcaracterísticas.</p>
+                <p>As principais características da qualidade de software de acordo com a ISO 9126 incluem funcionalidade, confiabilidade, usabilidade, eficiência, manutenibilidade e portabilidade.</p>
+                <p>A norma ajuda as organizações a definir critérios de qualidade claros e mensuráveis para seus produtos de software.</p>
+            </div>
+            <button onclick="nextStep('iso9000', this)">Próxima Etapa</button>
+        </div>
+    
+        <div class="step" id="iso9000">
+            <h2>Norma ISO 9000</h2>
+            <button class="details-button" onclick="toggleDetails('iso9000')">Saiba Mais</button>
+            <div class="details">
+                <p>A série ISO 9000 é um conjunto de normas que estabelecem os princípios de gestão da qualidade que uma organização deve seguir.</p>
+                <p>A ISO 9000 define termos e conceitos relacionados à qualidade e fornece diretrizes para implementar sistemas de gestão da qualidade.</p>
+            </div>
+            <button onclick="nextStep('iso9001', this)">Próxima Etapa</button>
+        </div>
+    
+        <div class="step" id="iso9001">
+            <h2>Norma ISO 9001</h2>
+            <button class="details-button" onclick="toggleDetails('iso9001')">Saiba Mais</button>
+            <div class="details">
+                <p>A ISO 9001 é uma norma específica que estabelece os requisitos para um sistema de gestão da qualidade em uma organização.</p>
+                <p>Ela define uma estrutura para documentar e melhorar os processos de uma organização, incluindo o desenvolvimento de software.</p>
+            </div>
+            <button onclick="nextStep('vantagensIso', this)">Próxima Etapa</button>
+        </div>
+    </div>
+    
+    <div class="step-container">
+        <!-- Etapa 14 - Vantagens das Normas ISO -->
+        <div class="step" id="vantagensIso">
+            <h2>Vantagens das Normas ISO</h2>
+            <button class="details-button" onclick="toggleDetails('vantagensIso')">Saiba Mais</button>
+            <div class="details">
+                <p>A utilização dessas normas ISO na engenharia de software oferece diversas vantagens, incluindo:</p>
+                <ul>
+                    <li>Melhoria da qualidade do software, o que leva a produtos mais confiáveis e satisfatórios para os usuários.</li>
+                    <li>Melhoria na gestão da qualidade em toda a organização, resultando em processos mais eficientes.</li>
+                    <li>Aumento da competitividade no mercado global, pois muitas organizações exigem conformidade com normas ISO.</li>
+                    <li>Redução de riscos, como falhas de segurança e problemas de conformidade regulatória.</li>
+                    <li>Aumento da confiança dos clientes, parceiros e partes interessadas de que a organização está comprometida com a qualidade.</li>
+                    <li>Facilitação da melhoria contínua, uma vez que as normas ISO incentivam a monitorização e aprimoramento constantes dos processos.</li>
+                </ul>
+            </div>
+            <button onclick="reset()">Reiniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
