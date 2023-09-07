@@ -1,5 +1,7 @@
 ## Qualidade do Processo - Modelos guias CMMI e MPS.BR
 
+Cada **Modelo** tem níveis diferentes e cada nível representa um estágio no qual a organização está em termos de maturidade de processos. O objetivo é progredir gradualmente através dos níveis, melhorando continuamente os processos e a qualidade do desenvolvimento de software. Isso ajuda as organizações a serem mais eficazes, eficientes e consistentes em suas práticas de desenvolvimento de software.
+
 ![Processo de Maturidade](ProcessosDeMaturidade.png)
 
 ### CMMI for Development (CMMI-DEV):
@@ -16,11 +18,11 @@ O **CMMI-DEV** é um modelo de maturidade de processos que se concentra no desen
 
 Os níveis de maturidade do CMMI-DEV são:
 
-1. **Inicial**: Os processos são ad hoc e não são consistentes.
-2. **Gerenciado**: Há um gerenciamento básico de projetos e processos.
-3. **Definido**: Os processos são padronizados e documentados.
-4. **Quantitativamente Gerenciado**: Os processos são controlados quantitativamente.
-5. **Em Otimização**: Os processos são continuamente melhorados.
+1. **Inicial**: Neste nível, os processos são geralmente ad hoc, caóticos e não documentados. O sucesso depende da habilidade individual dos membros da equipe.
+2. **Gerenciado**: No segundo nível, a organização estabelece processos de gerenciamento de projetos básicos, incluindo planejamento, acompanhamento e controle. Os processos são documentados e seguidos de forma consistente.
+3. **Definido**: Neste nível, os processos de desenvolvimento de software são bem definidos e documentados. As práticas de gerenciamento de projetos e desenvolvimento são padronizadas em toda a organização.
+4. **Quantitativamente Gerenciado**: O quarto nível envolve a medição quantitativa dos processos. A organização coleta dados para entender melhor o desempenho dos processos e tomar decisões com base em métricas.
+5. **Em Otimização**: No nível mais alto, a organização está constantemente buscando melhorar seus processos. As lições aprendidas são aplicadas para otimizar continuamente os processos e alcançar a excelência.
 
 ### MPS.BR for Development (MPS-SW):
 
