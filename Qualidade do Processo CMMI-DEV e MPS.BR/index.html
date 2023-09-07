@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Processos de Maturidade em Engenharia de Software</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Processos de Maturidade em Engenharia de Software</h1>
+        <div class="model-container">
+            <h2>CMMI-DEV</h2>
+            <div class="step-container">
+                <div class="step current-step" id="cmmi-dev-step-0">
+                    <p id="cmmi-dev-stepText-0">Nível Inicial</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('cmmi-dev-explicacao-0')">Saiba Mais</button>
+                    <div class="explicacao" id="cmmi-dev-explicacao-0">
+                        Neste nível, os processos são geralmente ad hoc, caóticos e não documentados. O sucesso depende da habilidade individual dos membros da equipe.
+                    </div>
+                    <button id="cmmi-dev-nextButton-0" onclick="nextStep('cmmi-dev', 0)">Avançar</button>
+                </div>
+
+                <div class="step" id="cmmi-dev-step-1">
+                    <p id="cmmi-dev-stepText-1">Nível Gerenciado</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('cmmi-dev-explicacao-1')">Saiba Mais</button>
+                    <div class="explicacao" id="cmmi-dev-explicacao-1">
+                        No segundo nível, a organização estabelece processos de gerenciamento de projetos básicos, incluindo planejamento, acompanhamento e controle. Os processos são documentados e seguidos de forma consistente.
+                    </div>
+                    <button id="cmmi-dev-nextButton-1" onclick="nextStep('cmmi-dev', 1)">Avançar</button>
+                </div>
+
+                <div class="step" id="cmmi-dev-step-2">
+                    <p id="cmmi-dev-stepText-2">Nível Definido</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('cmmi-dev-explicacao-2')">Saiba Mais</button>
+                    <div class="explicacao" id="cmmi-dev-explicacao-2">
+                        Neste nível, os processos de desenvolvimento de software são bem definidos e documentados. As práticas de gerenciamento de projetos e desenvolvimento são padronizadas em toda a organização.
+                    </div>
+                    <button id="cmmi-dev-nextButton-2" onclick="nextStep('cmmi-dev', 2)">Avançar</button>
+                </div>
+
+                <div class="step" id="cmmi-dev-step-3">
+                    <p id="cmmi-dev-stepText-3">Nível Quantitativo</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('cmmi-dev-explicacao-3')">Saiba Mais</button>
+                    <div class="explicacao" id="cmmi-dev-explicacao-3">
+                        O quarto nível envolve a medição quantitativa dos processos. A organização coleta dados para entender melhor o desempenho dos processos e tomar decisões com base em métricas.                    </div>
+                    <button id="cmmi-dev-nextButton-3" onclick="nextStep('cmmi-dev', 3)">Avançar</button>
+                </div>
+
+                <div class="step" id="cmmi-dev-step-4">
+                    <p id="cmmi-dev-stepText-4">Nível em Otimização</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('cmmi-dev-explicacao-4')">Saiba Mais</button>
+                    <div class="explicacao" id="cmmi-dev-explicacao-4">
+                        No nível mais alto, a organização está constantemente buscando melhorar seus processos. As lições aprendidas são aplicadas para otimizar continuamente os processos e alcançar a excelência.                    </div>
+                    <button id="cmmi-dev-nextButton-4" onclick="nextStep('cmmi-dev', 4)">Avançar</button>
+                </div>
+            </div>
+        </div>
+
+            </div>
+        </div>
+
+        <div class="model-container">
+            <h2>MPS.BR</h2>
+            <div class="step-container">
+                <div class="step current-step" id="mps-br-step-0">
+                    <p id="mps-br-stepText-0">Nível F: Inicial</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('mps-br-explicacao-0')">Saiba Mais</button>
+                    <div class="explicacao" id="mps-br-explicacao-0">
+                        Neste nível, os processos são informais e não são bem definidos. As atividades são realizadas de forma ad hoc, sem padrões ou documentação adequada.
+                    </div>
+                    <button id="mps-br-nextButton-0" onclick="nextStep('mps-br', 0)">Avançar</button>
+                </div>
+
+                <div class="step" id="mps-br-step-1">
+                    <p id="mps-br-stepText-1">Nível E: Gerenciado</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('mps-br-explicacao-1')">Saiba Mais</button>
+                    <div class="explicacao" id="mps-br-explicacao-1">
+                        Neste nível, os processos são planejados e gerenciados de forma mais sistemática. Começa a haver uma maior documentação e controle das atividades.
+                    </div>
+                    <button id="mps-br-nextButton-1" onclick="nextStep('mps-br', 1)">Avançar</button>
+                </div>
+
+                <div class="step" id="mps-br-step-2">
+                    <p id="mps-br-stepText-2">Nível D: Definido</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('mps-br-explicacao-2')">Saiba Mais</button>
+                    <div class="explicacao" id="mps-br-explicacao-2">
+                        Neste nível, os processos são bem definidos, documentados e padronizados. A organização segue esses processos de forma consistente.
+                    </div>
+                    <button id="mps-br-nextButton-2" onclick="nextStep('mps-br', 2)">Avançar</button>
+                </div>
+
+                <div class="step" id="mps-br-step-3">
+                    <p id="mps-br-stepText-3">Nível C: Gerenciado Quantitativamente</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('mps-br-explicacao-3')">Saiba Mais</button>
+                    <div class="explicacao" id="mps-br-explicacao-3">
+                        Além de ter processos bem definidos, a organização começa a medir e gerenciar quantitativamente o desempenho desses processos.
+                    </div>
+                    <button id="mps-br-nextButton-3" onclick="nextStep('mps-br', 3)">Avançar</button>
+                </div>
+
+                <div class="step" id="mps-br-step-4">
+                    <p id="mps-br-stepText-4">Nível B: Definido Quantitativamente</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('mps-br-explicacao-4')">Saiba Mais</button>
+                    <div class="explicacao" id="mps-br-explicacao-4">
+                        Neste nível, a organização atinge um alto grau de maturidade, definindo metas quantitativas para seus processos e monitorando seu desempenho de forma rigorosa.
+                    </div>
+                    <button id="mps-br-nextButton-4" onclick="nextStep('mps-br', 4)">Avançar</button>
+                </div>
+
+                <div class="step" id="mps-br-step-5">
+                    <p id="mps-br-stepText-5">Nível A: Em Otimização</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('mps-br-explicacao-5')">Saiba Mais</button>
+                    <div class="explicacao" id="mps-br-explicacao-5">
+                        No nível mais alto de maturidade, a organização busca continuamente otimizar seus processos para melhorar a eficiência e a qualidade.
+                    </div>
+                    <button id="mps-br-nextButton-5" onclick="nextStep('mps-br', 5)">Avançar</button>
+                </div>
+
+                <div class="step" id="mps-br-step-6">
+                    <p id="mps-br-stepText-6">Nível R: Nível em Realização</p>
+                    <button class="saiba-mais-button" onclick="toggleExplicacao('mps-br-explicacao-6')">Saiba Mais</button>
+                    <div class="explicacao" id="mps-br-explicacao-6">
+                        Este nível é reservado para organizações que demonstraram maturidade em todos os aspectos, incluindo a integração de processos de desenvolvimento de software com processos de negócios.
+                    </div>
+                    <button id="mps-br-nextButton-6" onclick="nextStep('mps-br', 6)">Avançar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
