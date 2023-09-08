@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Funcional e Estrutural</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="step active" id="step1">
+            <h2>Teste Funcional (Validação):</h2>
+            <p>Identificar Funções: O primeiro passo é identificar as funções ou requisitos do sistema que precisam ser testados. Isso envolve entender o que o sistema deve fazer e como ele deve se comportar em diferentes situações.</p>
+            <p>Criar Casos de Teste: Com base nas funções identificadas, você cria casos de teste que descrevem cenários específicos para testar essas funções. Cada caso de teste deve incluir entradas, ações, resultados esperados e critérios de aprovação.</p>
+        </div>
+        <div class="step" id="step2">
+            <h2>Teste Funcional para Verificar:</h2>
+            <p>Funções Incorretas: Este tipo de teste verifica se as funções do sistema estão funcionando corretamente de acordo com as especificações.</p>
+            <p>Erros de Comportamento: Detecta qualquer comportamento inesperado ou não conforme com as expectativas.</p>
+            <p>Desempenho: Além da funcionalidade, o desempenho do sistema também é testado para garantir que ele atenda aos requisitos de desempenho estabelecidos.</p>
+            <p>Interface (UX): Testa a usabilidade e a experiência do usuário para garantir que a interface do sistema seja intuitiva e eficaz.</p>
+            <p>Iniciação e Término: Certifica-se de que o sistema possa ser iniciado e encerrado de maneira adequada.</p>
+        </div>
+        <div class="step" id="step3">
+            <h2>Teste Estrutural:</h2>
+            <p>O teste estrutural se concentra na estrutura interna do software e é útil para identificar partições críticas do código que podem não ser testadas com testes funcionais.</p>
+            <p>Grafos podem ser usados para modelar o fluxo de controle do programa e ajudar na identificação de caminhos de execução importantes.</p>
+            <p>O teste estrutural é especialmente útil para encontrar casos de teste adicionais que podem não ser evidentes com base apenas nas especificações funcionais.</p>
+        </div>
+    </div>
+    <div class="button-container">
+        <button onclick="nextStep()">Avançar</button>
+        <button onclick="returnToStart()">Retornar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
