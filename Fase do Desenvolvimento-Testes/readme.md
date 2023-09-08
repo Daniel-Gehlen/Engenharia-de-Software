@@ -2,6 +2,8 @@
 
 Testar é uma parte fundamental do processo de desenvolvimento de software, e o momento e a abordagem dos testes podem variar de acordo com a metodologia de desenvolvimento adotada, como Agile, Waterfall ou DevOps. Aqui estão algumas considerações gerais sobre testes:
 
+# Fase do Desenvolvimento
+
 ![Testes de Software](ScreenshotFasesDoDesenvolvimento.png)
 
 ## Quando Testar?
