@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes - Fases do Desenvolvimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Testes - Fases do Desenvolvimento</h1>
+        
+        <div class="step active" id="step1">
+            <h2>Quando testar?</h2>
+            <p>Os testes ocorrem em diferentes fases do desenvolvimento:</p>
+            <ul>
+                <li><strong>Testes de Unidade:</strong> Durante o desenvolvimento, focados em unidades individuais de código.</li>
+                <li><strong>Testes de Integração:</strong> Após os testes de unidade, para garantir a integração dos módulos.</li>
+                <li><strong>Testes de Validação:</strong> Garantem a satisfação dos requisitos de aceitação antes do lançamento.</li>
+                <li><strong>Testes do Sistema:</strong> Testam o sistema completo, incluindo hardware, banco de dados, etc.</li>
+            </ul>
+        </div>
+
+        <div class="step" id="step2">
+            <h2>Tipos de Teste</h2>
+            <ul>
+                <li><strong>Teste da Unidade:</strong> Testa unidades individuais de código, como funções ou métodos.</li>
+                <li><strong>Teste de Integração:</strong> Testa a integração entre módulos, com abordagens top-down e bottom-up.</li>
+                <li><strong>Teste de Validação:</strong> Garante a satisfação dos requisitos de aceitação e regressão.</li>
+                <li><strong>Teste do Sistema:</strong> Testa o sistema completo, incluindo hardware, banco de dados e sistemas operacionais.</li>
+            </ul>
+        </div>
+
+        <div class="step" id="step3">
+            <h2>O que testar?</h2>
+            <ul>
+                <li><strong>Funcionalidade:</strong> Garante que o software execute suas funções conforme especificado.</li>
+                <li><strong>Interface:</strong> Avalia a usabilidade e a consistência da interface do usuário.</li>
+                <li><strong>Desempenho:</strong> Testa o desempenho em termos de velocidade, capacidade de resposta e escalabilidade.</li>
+                <li><strong>Carga (stresse):</strong> Verifica como o software lida com cargas de trabalho pesadas ou situações de estresse.</li>
+                <li><strong>Usabilidade:</strong> Avalia a experiência do usuário e a facilidade de uso do software.</li>
+                <li><strong>Volume:</strong> Testa o comportamento com grandes volumes de dados.</li>
+                <li><strong>Segurança:</strong> Garante a resistência a ameaças e vulnerabilidades.</li>
+            </ul>
+        </div>
+
+        <div class="step" id="step4">
+            <h2>Como testar?</h2>
+            <ul>
+                <li><strong>Teste Funcional:</strong> Avalia se o software funciona corretamente em termos de entrada e saída esperadas.</li>
+                <li><strong>Teste Estrutural:</strong> Examina o código-fonte para garantir que todas as partes tenham sido testadas.</li>
+            </ul>
+        </div>
+
+        <div class="button-container">
+            <button onclick="resetSteps()">Reiniciar</button>
+            <button onclick="nextStep()" id="nextButton">Iniciar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
