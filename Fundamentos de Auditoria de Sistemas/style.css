@@ -1,0 +1,49 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Cor de fundo */
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white; /* Cor de fundo do container */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Duas colunas */
+    grid-gap: 20px; /* Espaçamento entre as etapas */
+}
+
+/* Estilo comum para todas as etapas */
+.step {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: white; /* Cor de fundo para as etapas */
+}
+
+.completed {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
