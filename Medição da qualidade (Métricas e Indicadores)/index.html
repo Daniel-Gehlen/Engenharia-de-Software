@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação de Avanço de Etapas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Medição da qualidade (Métricas e Indicadores)</h1>
+    <div id="step-container">
+        <!-- Quadrados de etapa -->
+        <div class="step-square" onclick="toggleStep(0)">
+            <div class="step-title">Falha, Erro, Defeitos e Bug</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>Falha (Failure): É uma ocorrência não esperada do sistema em produção, que pode levar a uma interrupção no serviço.</p>
+                <p>Erro (Error): É um engano humano que pode levar a uma falha.</p>
+                <p>Defeito (Defect): É um problema no código fonte que pode causar erros.</p>
+                <p>Bug: Termo informal usado para se referir a defeitos ou problemas no software.</p>
+            </div>
+        </div>
+        <!-- Repita isso para cada etapa -->
+        <div class="step-square" onclick="toggleStep(1)">
+            <div class="step-title">Métricas</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>Métricas são medidas quantitativas que ajudam a avaliar diferentes aspectos do software, como desempenho, confiabilidade, usabilidade, entre outros. Exemplos de métricas incluem o tempo médio entre falhas (MTBF), a taxa de defeitos por mil linhas de código, a velocidade de entrega em um processo ágil, etc.</p>
+            </div>
+        </div>
+        <div class="step-square" onclick="toggleStep(2)">
+            <div class="step-title">Medidas, Métricas e Indicadores</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>Medida: Uma medida é uma representação quantitativa de um atributo, como tamanho, tempo ou custo.</p>
+                <p>Métrica: Uma métrica é uma fórmula ou método usado para calcular uma medida específica.</p>
+                <p>Indicador: Um indicador é uma métrica que é usada para fornecer informações sobre o estado ou a qualidade de algo. Os indicadores são frequentemente usados para tomar decisões.</p>
+            </div>
+        </div>
+        <div class="step-square" onclick="toggleStep(3)">
+            <div class="step-title">Princípios da Medição</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>Os princípios da medição incluem coletar dados relevantes e precisos, usar métricas adequadas aos objetivos, manter a consistência nas medições ao longo do tempo e garantir que as medições sejam usadas para melhorar o processo ou produto.</p>
+            </div>
+        </div>
+        <div class="step-square" onclick="toggleStep(4)">
+            <div class="step-title">Métricas: Ciclo de Vida das Métricas</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>O ciclo de vida das métricas envolve a definição de métricas apropriadas, a coleta de dados, a análise desses dados e a utilização dos resultados para tomar decisões e melhorar o software.</p>
+            </div>
+        </div>
+        <div class="step-square" onclick="toggleStep(5)">
+            <div class="step-title">Métricas para Modelos de Requisitos</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>Métricas nesse contexto podem incluir a cobertura de requisitos, a rastreabilidade de requisitos, a complexidade dos requisitos, entre outros.</p>
+            </div>
+        </div>
+        <div class="step-square" onclick="toggleStep(6)">
+            <div class="step-title">Métricas para o Modelo de Projeto</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>Métricas para o modelo de projeto podem avaliar a eficiência do design, a modularidade, a coesão e o acoplamento dos componentes do software.</p>
+            </div>
+        </div>
+        <div class="step-square" onclick="toggleStep(7)">
+            <div class="step-title">Métricas de Projeto para WebApp e Aplicativos Móveis</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>Essas métricas podem incluir o tempo de carregamento de páginas, a responsividade da interface do usuário, a utilização de recursos do dispositivo móvel, entre outros.</p>
+            </div>
+        </div>
+        <div class="step-square" onclick="toggleStep(8)">
+            <div class="step-title">Métricas para o Código Fonte</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>Métricas de código fonte avaliam a qualidade do código, incluindo a complexidade ciclomática, a duplicação de código, o número de linhas de código, entre outras.</p>
+            </div>
+        </div>
+        <div class="step-square" onclick="toggleStep(9)">
+            <div class="step-title">Métricas para Testes</div>
+            <button class="toggle-button">Saiba Mais</button>
+            <div class="step-content">
+                <p>Métricas de teste avaliam a eficácia dos testes realizados, incluindo a cobertura de código, a taxa de defeitos encontrados, o tempo gasto nos testes, entre outras.</p>
+            </div>
+        </div>
+    </div>
+    <div id="step-text">
+        <!-- Texto da etapa atual será exibido aqui -->
+    </div>
+    <div id="buttons">
+        <button id="prev-btn" disabled>Anterior</button>
+        <button id="next-btn" onclick="nextStep()">Próxima</button>
+    </div>
+    <div id="choice-buttons">
+        <button id="choice-yes">Sim</button>
+        <button id="choice-no">Não</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

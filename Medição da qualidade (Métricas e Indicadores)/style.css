@@ -1,0 +1,58 @@
+/* Estilos CSS para a aparência da aplicação */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#step-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.step-square {
+    width: calc(33.33% - 20px);
+    background-color: #ccc;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.expanded {
+    height: auto;
+}
+
+.step-title {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.step-content {
+    display: none;
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.completed {
+    background-color: green;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+#choice-buttons {
+    display: none;
+    margin-top: 20px;
+}
