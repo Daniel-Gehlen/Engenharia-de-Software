@@ -28,8 +28,21 @@ A documentação é essencial para o desenvolvimento de software de alta qualida
 
 ## Tipos de Requisitos:
 
-- Funcionais: Descrevem as funcionalidades específicas que o software deve oferecer. Exemplo: "O sistema deve permitir que os usuários façam login."
-- Não-funcionais: Descrevem características não diretamente relacionadas a funcionalidades específicas, como desempenho, segurança e usabilidade. Exemplo: "O sistema deve responder a todas as solicitações de login em menos de 2 segundos."
+ **Funcionais:** Descrevem as funcionalidades específicas que o software deve oferecer. Exemplos: 
+
+- "O sistema deve permitir que os usuários façam login."
+- "O tempo de resposta da consulta de produtos deve ser dada por: quantidade * 0,001. Ou seja, a cada 1000 produtos um segundo."
+- " O aplicativo deve permitir que com no máximo 3 cliques, o usuário chegue a qualquer funcionalidade:  esse exemplo é uma diretriz de usabilidade, o que pode ser considerado um requisito não-funcional, pois não descreve uma funcionalidade específica do sistema, mas sim uma característica de usabilidade desejada."
+
+
+**Não-funcionais:** Descrevem características não diretamente relacionadas a funcionalidades específicas, como desempenho, segurança e usabilidade.
+
+Exemplos:
+
+- "O sistema deve responder a todas as solicitações de login em menos de 2 segundos."
+- "O sistema deve enviar a solicitação de impressão para o equipamento mais próximo ao computador solicitante:  isso pode ser considerado um requisito não-funcional relacionado à eficiência ou à otimização de recursos."
+- "A foto do usuário deve ser anexada somente no formato .jpg: este é um exemplo de um requisito não-funcional relacionado à restrição de formato de dados."
+- "A recuperação de senha deve ser por meio do link enviado no e-mail:  isso parece ser um requisito funcional específico relacionado à funcionalidade de recuperação de senha."
 
 ## Ciclo de Desenvolvimento de Software baseado na SQA (Software Quality Assurance):
 
