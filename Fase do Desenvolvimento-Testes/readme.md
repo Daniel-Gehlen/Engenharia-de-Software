@@ -44,6 +44,13 @@ Testar é uma parte fundamental do processo de desenvolvimento de software, e o 
 - Examina o código-fonte para garantir que todas as partes do código tenham sido testadas.
 - Pode envolver testes de cobertura de código, como testes de ramificação e testes de caminho.
 
+### Depuração: aplicações
+- A necessidade da depuração decorre de um teste mal-sucedido. A depuração geralmente é necessária quando um programa ou código não funciona como esperado, após um teste ou execução inicial.
+- Um dos recursos da depuração inclui a inspeção de variáveis. Uma das principais técnicas de depuração envolve a inspeção e monitoramento das variáveis do programa para entender como seus valores estão mudando e identificar possíveis problemas.
+- A depuração é um processo que ocorre após testes, quando problemas são identificados, a fim de encontrar e corrigir erros no código. Não se trata de simplificar o teste, mas sim de identificar e corrigir os problemas que surgiram durante a execução ou teste do programa.
+
+
+
 Além disso, é importante mencionar a automação de testes, que pode ajudar a acelerar o processo de testes, especialmente em cenários de desenvolvimento ágil e DevOps. Ferramentas de automação de testes podem ser usadas para criar e executar testes repetitivos de forma eficiente.
 
 Lembre-se de que a estratégia de teste deve ser adaptada às necessidades específicas do projeto e às prioridades dos requisitos do software. A colaboração entre desenvolvedores, testadores e partes interessadas é essencial para garantir que os testes sejam bem-sucedidos e que o software atenda às expectativas.

@@ -13,7 +13,7 @@ O Extreme Programming (XP) é uma das metodologias ágeis voltadas para o desenv
 - O XP enfatiza a obtenção de feedback rápido, frequentemente por meio de testes automatizados e integração contínua.
 
 ### Desenvolvimento Iterativo e Incremental
-- O desenvolvimento é dividido em iterações curtas e frequentes, permitindo ajustes ágeis ao longo do caminho.
+- O desenvolvimento é dividido em iterações curtas e frequentes, permitindo ajustes ágeis ao longo do caminho.Ao desenvolvedor não é dada apenas a função de codificar o sistema.
 
 ### Testes Automatizados
 - A prática de desenvolver testes automatizados é fundamental no XP, garantindo que o software funcione conforme o esperado.
@@ -28,7 +28,7 @@ O Extreme Programming (XP) é uma das metodologias ágeis voltadas para o desenv
 - Todos os membros da equipe são responsáveis pelo código-fonte, incentivando a colaboração.
 
 ### Cliente no Local
-- O cliente está envolvido ativamente no projeto, trabalhando lado a lado com a equipe de desenvolvimento.
+- O cliente está envolvido ativamente no projeto, trabalhando lado a lado com a equipe de desenvolvimento. O trabalho do analista de testes no XP pressupõe a participação do cliente.
 
 ### Refatoração Contínua
 - A equipe se dedica a melhorar continuamente o código existente.

@@ -23,6 +23,7 @@ Os níveis de maturidade do CMMI-DEV são:
 3. **Definido**: Neste nível, os processos de desenvolvimento de software são bem definidos e documentados. As práticas de gerenciamento de projetos e desenvolvimento são padronizadas em toda a organização.
 4. **Quantitativamente Gerenciado**: O quarto nível envolve a medição quantitativa dos processos. A organização coleta dados para entender melhor o desempenho dos processos e tomar decisões com base em métricas.
 5. **Em Otimização**: No nível mais alto, a organização está constantemente buscando melhorar seus processos. As lições aprendidas são aplicadas para otimizar continuamente os processos e alcançar a excelência.
+ - Quando a empresa está avançando na avaliação do desempenho da aplicação com diferentes tipos de banco de dados, o que sugere uma busca contínua pela otimização do desempenho. Então, ela etá no mais alto nível, indicando que a organização está constantemente buscando melhorias e refinamentos em seus processos para atingir os melhores resultados possíveis.
 
 ### MPS.BR for Development (MPS-SW):
 

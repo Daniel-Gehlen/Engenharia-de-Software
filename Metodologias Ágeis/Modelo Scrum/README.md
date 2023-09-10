@@ -8,19 +8,36 @@ O Scrum é uma das metodologias ágeis mais populares e é conhecido por suas ca
 
 No Scrum, as equipes são consideradas auto-organizadas, o que significa que têm a autonomia e a responsabilidade de determinar como realizar o trabalho. Isso incentiva a colaboração e a participação ativa dos membros da equipe, permitindo que eles tomem decisões conjuntas e adaptem o processo conforme necessário.
 
+## Sprint Backlog
+O Sprint Backlog é um conceito central nas metodologias ágeis, como o Scrum. Ele representa a lista de itens de trabalho que uma equipe de desenvolvimento selecionou para serem realizados durante um Sprint específico. A seguir, as etapas do Sprint Backlog:
+
+- **Seleção de Itens**: Antes de iniciar um Sprint, a equipe de desenvolvimento seleciona um conjunto de itens do Product Backlog, que é uma lista de todas as funcionalidades desejadas para o produto. Os itens escolhidos para o Sprint devem ser priorizados e representar o trabalho mais importante para ser realizado durante aquele período.
+
+- **Compromisso da Equipe**:  A equipe de desenvolvimento faz um compromisso de concluir os itens do Sprint Backlog durante o Sprint. Isso significa que eles estão comprometidos em entregar essas funcionalidades até o final do Sprint.
+
+- **Visibilidade**: O Sprint Backlog é visível para todos os membros da equipe, o que ajuda a manter todos alinhados quanto ao trabalho a ser realizado durante o Sprint.
+
+- **Flexibilidade**: Durante o Sprint, a equipe pode adicionar ou remover itens do Sprint Backlog, desde que o Product Owner (proprietário do produto) concorde com as mudanças. Isso permite que a equipe se adapte a mudanças nas necessidades do cliente ou em outros fatores que afetam o projeto.
+
+- **Auto-organização**:  A equipe de desenvolvimento é responsável por determinar como realizará o trabalho no Sprint Backlog. Eles são auto-organizados e têm a liberdade de escolher as melhores abordagens para alcançar os objetivos do Sprint.
+
+- **Monitoramento do Progresso**: Durante o Sprint, a equipe realiza reuniões diárias de acompanhamento (Scrum Daily Standup) para discutir o progresso em relação ao Sprint Backlog e identificar quaisquer obstáculos que possam impedir o cumprimento das metas do Sprint.
+
+- **Entrega Incremental**: O objetivo principal do Sprint é entregar um incremento do produto que seja potencialmente entregável ao cliente. Isso significa que, ao final de cada Sprint, o produto deve estar em um estado funcional e pronto para ser entregue, mesmo que não contenha todas as funcionalidades planejadas.
+
 ## Papéis Definidos
 
 O Scrum define papéis específicos, incluindo:
 
-- **Scrum Master**: Responsável por facilitar o processo e remover impedimentos.
+- **Scrum Master**: Responsável por facilitar o processo e remover impedimentos. 
 - **Product Owner**: Responsável por representar os interesses do cliente e definir prioridades.
-- **Equipe de Desenvolvimento**: Responsável por criar o software.
+- **Equipe de Desenvolvimento**: Responsável por criar o software. Na metodologia Scrum e em outras metodologias ágeis, a responsabilidade pela execução das tarefas do Sprint Backlog recai principalmente sobre a equipe de desenvolvimento. 
 
-Esses papéis ajudam a definir responsabilidades claras e promovem a comunicação entre as partes interessadas.
+Esses papéis ajudam a definir responsabilidades claras e promovem a comunicação entre as partes interessadas. Ao desenvolvedor não é dada apenas a função de codificar o sistema.
 
 ## Iterações (Sprints)
 
-O Scrum utiliza iterações de tempo fixo, chamadas de Sprints, que normalmente duram de 2 a 4 semanas. Durante uma Sprint, a equipe se concentra em um conjunto de funcionalidades ou tarefas prioritárias. Isso permite entregas frequentes e feedback contínuo, o que é benéfico para os membros da equipe e para os stakeholders.
+O Scrum utiliza iterações de tempo fixo, chamadas de Sprints, que normalmente duram de 2 a 4 semanas. Durante uma Sprint, a equipe se concentra em um conjunto de funcionalidades ou tarefas prioritárias. Isso permite entregas frequentes e feedback contínuo, o que é benéfico para os membros da equipe e para os stakeholders. 
 
 ## Revisões e Retrospectivas
 
