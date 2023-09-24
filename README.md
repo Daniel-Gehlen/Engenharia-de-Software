@@ -1,4 +1,6 @@
-# Engenharia-de-Software
+# WebDesignProjects
+
+## Engenharia-de-Software
 
 Este repositório contem pastas organizadas de acordo com conceitos em Engenharia de Software.
 A seguir estão listadas as pastas desse repositório onde cada pasta contém a codificação de um layout em HTM, CSS e JavaScript.
